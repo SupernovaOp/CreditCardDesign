@@ -1,0 +1,73 @@
+body,html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height:100%;
+    width: 100%;
+    background-color: rgb(188, 196, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(231, 226, 226);
+}
+.logo1{
+    height: 30px;
+    width:50px;
+}
+.container{
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    background-image: url(/bg.png);
+    background-size: cover;
+}
+.chip{
+    height: 30px;
+    width: 50px;
+}
+header .logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+.logo h5{
+   margin:0px;
+   font-size: 15px;
+   color: white;
+   position: relative;
+   left: -60px;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 10px;
+    top: 40px;
+    position: relative;
+    left:20px;
+}
+.card-details .number{
+    position: relative;
+    top:5px;
+   
+}
+.name{
+    position: relative;
+    top:30px;
+    
+}
+.expiry{
+    position: relative;
+    left:230px;
+    bottom:10px
+}
+.date{
+    position: relative;
+    left:235px;
+    bottom: 5px;
+}
